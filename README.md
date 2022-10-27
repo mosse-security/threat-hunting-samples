@@ -2,7 +2,7 @@
 
 With this Github repository, [Mossé Cyber Security Institute](https://www.mosse-institute.com/) offers you three (3) datasets to practice Threat Hunting.
 
-The datasets contain forensics data for 25, 50 and 75 machines respectively. The answers for dataset 1 have been provided for learning purposes. It will be up to you to discover which machines have been compromised for the other two datasets.
+The datasets contain forensics data for 25, 50 and 75 machines respectively. For educational purposes, the answers to dataset 1 have been made available. For the other two datasets, it will be up to you to determine which devices have been compromised.
 
 # Getting Started
 
