@@ -88,10 +88,10 @@ print(search_1[['hostname', 'path', 'arguments']].to_string(index=False))
 Here's how you find machines where the adversary used procdump to dump the memory of LSASS:
 
 ```python
-search_1 = w32processes[w32processes['name'] == 'Program.exe']
+search_2 = w32processes[w32processes['name'] == 'procdump.exe']
 
-print("> Machines with Path Interception:")
-print(search_1[['hostname', 'path', 'arguments']].to_string(index=False))
+print("> Machines with procdump.exe: %d" % len(search_2))
+print(search_2[['hostname', 'arguments']].to_string(index=False))
 ```
 
 ### Step 4 - Identify Accessibility Feature backdoors
@@ -104,7 +104,6 @@ Here's how you can detect the Accessibility Feature backdoors in the dataset:
 search_3 = w32registry[w32registry['valuename'] == 'Debugger']
 search_3 = search_3[search_3['keypath'].str.contains('Image File Execution Options')]
 
-print("\n")
 print("Machines with Accessibility Features Backdoors:")
 print(search_3[['hostname', 'keypath', 'text']].to_string(index=False))
 ```
