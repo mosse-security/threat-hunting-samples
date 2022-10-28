@@ -114,7 +114,7 @@ print(search_3[['hostname', 'keypath', 'text']].to_string(index=False))
 |---------| ------|
 | 25 machines | LSASS process dumping, PATH Interception, Accessibility Features Backdoor |
 | 50 machines | DLL injection, PowerShell Execution, MSHTA Execution, Regsvr32 Execution |
-| 75 machines | |
+| 75 machines | Malicious User Accounts, Living of the Land, DLL Injection |
 
 # Contact Us
 
