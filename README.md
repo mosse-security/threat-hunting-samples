@@ -1,8 +1,8 @@
 # Introduction
 
-With this Github repository, [Mossé Cyber Security Institute](https://www.mosse-institute.com/) offers you three (3) datasets to practice Threat Hunting.
+With this Github repository, [Mossé Cyber Security Institute](https://www.mosse-institute.com/) offers you multiple datasets to practice Threat Hunting.
 
-The datasets contain forensics data for 25, 50 and 75 machines respectively. For educational purposes, the answers to dataset 1 have been made available. For the other two datasets, it will be up to you to determine which devices have been compromised.
+For educational purposes, the answers to dataset 1 have been made available. For the other two datasets, it will be up to you to determine which devices have been compromised.
 
 # Getting Started
 
@@ -110,11 +110,12 @@ print(search_3[['hostname', 'keypath', 'text']].to_string(index=False))
 
 # Hints
 
-| Dataset | Hints |
-|---------| ------|
-| 25 machines | LSASS process dumping, PATH Interception, Accessibility Features Backdoor |
-| 50 machines | DLL injection, PowerShell Execution, MSHTA Execution, Regsvr32 Execution |
-| 75 machines | Malicious User Accounts, Living of the Land, DLL Injection |
+| Dataset | Machines | Hints |
+|---------| ------| ------|
+| 1 | 25 machines | LSASS process dumping, PATH Interception, Accessibility Features Backdoor |
+| 2 | 50 machines | DLL injection, PowerShell Execution, MSHTA Execution, Regsvr32 Execution |
+| 3 | 75 machines | Malicious User Accounts, Living of the Land, DLL Injection |
+| 4 | 100 machines | Jscript Backdoor, PowerShell Dropper, 2x Reverse Shells |
 
 # Contact Us
 
